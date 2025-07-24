@@ -1,0 +1,48 @@
+[project]
+name = "car-rental-dynamic-book-prediction"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+
+keywords = [
+    "car",
+    "rental",
+    "book",
+    "prediction",
+    "machine learning",
+    "data science",
+]
+license = { text = "MIT" }
+
+authors = [{ name = "Alejandro Garcia" }]
+maintainers = [
+    { name = "Alejandro Garcia", email = "github_dev.chowder574@passmail.net" },
+]
+
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+]
+
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "pytest>=8.4.1",
+    "ruff>=0.12.5",
+    "ipykernel>=6.29.5",
+    "ipywidgets>=8.1.7",
+    "numpy<2",
+    "torch==2.2.2",
+    "torchvision==0.17.2",
+    "pandas>=2.3.1",
+    "faker>=37.4.2",
+    "sdv>=1.18.0",
+]
+
+[tool.uv]
+resolution = "highest"
+required-version = ">=0.7.19"
