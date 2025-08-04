@@ -27,7 +27,13 @@ classifiers = [
     "Programming Language :: Python :: 3.11",
 ]
 
-dependencies = []
+dependencies = [
+    "joblib>=1.5.1",
+    "prophet>=1.1.7",
+    "scikit-learn>=1.7.1",
+    "torch>=2.2.2",
+    "xgboost>=3.0.3",
+]
 
 [dependency-groups]
 dev = [
@@ -43,6 +49,7 @@ dev = [
     "sdv>=1.18.0",
     "matplotlib>=3.10.3",
     "seaborn>=0.13.2",
+    "jupyter>=1.1.1",
 ]
 
 [tool.uv]
