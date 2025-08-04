@@ -205,4 +205,5 @@ cython_debug/
 .cursorignore
 .python-version
 CLAUDE.md
-/data
+data/
+src/car_rental_prediction/scripts/data
