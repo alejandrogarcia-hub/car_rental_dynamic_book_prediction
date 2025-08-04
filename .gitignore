@@ -205,5 +205,14 @@ cython_debug/
 .cursorignore
 .python-version
 CLAUDE.md
-data/
+
+# Data directories - allow MLOps standard structure, ignore notebooks experimental data
+notebooks/data/
 src/car_rental_prediction/scripts/data
+
+# Allow processed training data for MLOps
+!data/
+!data/README.md
+!data/processed/
+!data/raw/
+!data/external/
