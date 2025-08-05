@@ -1,0 +1,93 @@
+supplier_id,location_id,supplier_name,city
+3,1,Enterprise,New York
+3,2,Enterprise,New York
+3,3,Enterprise,New York
+3,4,Enterprise,New York
+2,1,Hertz,New York
+2,2,Hertz,New York
+2,3,Hertz,New York
+2,4,Hertz,New York
+1,1,Avis,New York
+1,2,Avis,New York
+1,3,Avis,New York
+1,4,Avis,New York
+5,1,Budget,New York
+5,2,Budget,New York
+5,3,Budget,New York
+4,1,Sixt,New York
+3,5,Enterprise,Los Angeles
+3,6,Enterprise,Los Angeles
+3,7,Enterprise,Los Angeles
+3,8,Enterprise,Los Angeles
+2,5,Hertz,Los Angeles
+2,6,Hertz,Los Angeles
+2,7,Hertz,Los Angeles
+2,8,Hertz,Los Angeles
+1,5,Avis,Los Angeles
+1,6,Avis,Los Angeles
+1,7,Avis,Los Angeles
+1,8,Avis,Los Angeles
+5,5,Budget,Los Angeles
+5,6,Budget,Los Angeles
+5,7,Budget,Los Angeles
+4,5,Sixt,Los Angeles
+4,6,Sixt,Los Angeles
+3,9,Enterprise,Chicago
+3,10,Enterprise,Chicago
+3,11,Enterprise,Chicago
+3,12,Enterprise,Chicago
+2,9,Hertz,Chicago
+2,10,Hertz,Chicago
+2,11,Hertz,Chicago
+2,12,Hertz,Chicago
+1,9,Avis,Chicago
+1,10,Avis,Chicago
+1,11,Avis,Chicago
+5,9,Budget,Chicago
+5,10,Budget,Chicago
+5,11,Budget,Chicago
+4,9,Sixt,Chicago
+3,13,Enterprise,Atlanta
+3,14,Enterprise,Atlanta
+3,15,Enterprise,Atlanta
+3,16,Enterprise,Atlanta
+2,13,Hertz,Atlanta
+2,14,Hertz,Atlanta
+2,15,Hertz,Atlanta
+2,16,Hertz,Atlanta
+1,13,Avis,Atlanta
+1,14,Avis,Atlanta
+1,15,Avis,Atlanta
+5,13,Budget,Atlanta
+5,14,Budget,Atlanta
+4,13,Sixt,Atlanta
+3,17,Enterprise,Houston
+3,18,Enterprise,Houston
+3,19,Enterprise,Houston
+3,20,Enterprise,Houston
+2,17,Hertz,Houston
+2,18,Hertz,Houston
+2,19,Hertz,Houston
+1,17,Avis,Houston
+1,18,Avis,Houston
+1,19,Avis,Houston
+5,17,Budget,Houston
+5,18,Budget,Houston
+5,19,Budget,Houston
+4,17,Sixt,Houston
+3,21,Enterprise,Miami
+3,22,Enterprise,Miami
+3,23,Enterprise,Miami
+3,24,Enterprise,Miami
+2,21,Hertz,Miami
+2,22,Hertz,Miami
+2,23,Hertz,Miami
+2,24,Hertz,Miami
+1,21,Avis,Miami
+1,22,Avis,Miami
+1,23,Avis,Miami
+1,24,Avis,Miami
+5,21,Budget,Miami
+5,22,Budget,Miami
+5,23,Budget,Miami
+4,21,Sixt,Miami

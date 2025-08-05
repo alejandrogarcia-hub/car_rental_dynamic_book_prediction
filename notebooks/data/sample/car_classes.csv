@@ -1,0 +1,5 @@
+car_class_id,car_class_name,probabilities
+1,economy,0.32
+2,compact,0.28
+3,suv,0.25
+4,luxury,0.15

@@ -1,0 +1,86 @@
+{
+  "analysis_date": "2025-08-04 16:55:15",
+  "synthetic_data_tables": [
+    "users",
+    "searches",
+    "bookings",
+    "rental_prices",
+    "competitor_prices",
+    "locations",
+    "suppliers",
+    "car_classes"
+  ],
+  "sample_data_tables": [
+    "users",
+    "searches",
+    "bookings",
+    "rental_prices",
+    "competitor_prices"
+  ],
+  "sdv_quality_scores": {},
+  "statistical_test_summary": {
+    "users": {
+      "total_tests": 3,
+      "passed_tests": 2,
+      "pass_rate": 0.6666666666666666
+    },
+    "searches": {
+      "total_tests": 11,
+      "passed_tests": 6,
+      "pass_rate": 0.5454545454545454
+    },
+    "bookings": {
+      "total_tests": 16,
+      "passed_tests": 8,
+      "pass_rate": 0.5
+    },
+    "rental_prices": {
+      "total_tests": 10,
+      "passed_tests": 4,
+      "pass_rate": 0.4
+    },
+    "competitor_prices": {
+      "total_tests": 7,
+      "passed_tests": 2,
+      "pass_rate": 0.2857142857142857
+    }
+  },
+  "correlation_analysis": {
+    "users": {
+      "mean_abs_diff": 0.0031479802787517967,
+      "max_abs_diff": 0.0031479802787517967,
+      "std_abs_diff": 0.0,
+      "correlations_preserved": 1.0
+    },
+    "searches": {
+      "mean_abs_diff": 0.11020807209136352,
+      "max_abs_diff": 0.9234174697315838,
+      "std_abs_diff": 0.272477693200905,
+      "correlations_preserved": 0.9
+    },
+    "bookings": {
+      "mean_abs_diff": NaN,
+      "max_abs_diff": NaN,
+      "std_abs_diff": NaN,
+      "correlations_preserved": 0.7272727272727273
+    },
+    "rental_prices": {
+      "mean_abs_diff": 0.06587682802794848,
+      "max_abs_diff": 0.7808530110891269,
+      "std_abs_diff": 0.16258276575995761,
+      "correlations_preserved": 0.9523809523809523
+    }
+  },
+  "integrity_issues": [
+    "Found 1087 bookings with non-existent user_ids",
+    "Found 11933 searches with non-existent user_ids",
+    "Found 2001 bookings with non-existent search_ids",
+    "Found 24 searches with invalid location_ids"
+  ],
+  "recommendations": [
+    "Improve quality scores for tables below 80%",
+    "Address failed statistical tests",
+    "Enhance correlation preservation",
+    "Consider multi-table synthesis for relationships"
+  ]
+}

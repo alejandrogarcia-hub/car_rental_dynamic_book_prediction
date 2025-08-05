@@ -1,0 +1,45 @@
+{
+  "generation_date": "2025-08-04T16:50:19.052337",
+  "synthesizer_type": "ctgan",
+  "temporal_preservation": true,
+  "tables": {
+    "searches": [
+      57282,
+      9
+    ],
+    "users": [
+      20000,
+      3
+    ],
+    "bookings": [
+      3205,
+      16
+    ],
+    "rental_prices": [
+      8761,
+      10
+    ],
+    "competitor_prices": [
+      366,
+      7
+    ],
+    "suppliers": [
+      92,
+      4
+    ],
+    "car_classes": [
+      4,
+      3
+    ],
+    "locations": [
+      24,
+      3
+    ]
+  },
+  "quality_metrics": {
+    "hourly_distribution_diff": 0.0013456815986406434,
+    "midnight_hour_preserved": true,
+    "referential_integrity": true,
+    "conversion_rate": 0.05595125868510178
+  }
+}
